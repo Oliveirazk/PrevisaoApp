@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "New Amsterdam", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 26px;
+    line-height: 190%;
+    line-height: 60px;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(48, 44, 44);
+    color: ghostwhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.caixa-maior{
+    background-color: dimgrey;
+    padding: 20px;
+    gap: 5px;
+    border-radius: 50px;
+}
+
+
+input{
+    outline: none;
+}
+
+.caixa-pequena{
+    display: flex;
+    align-items: center;
+}
+
+.btn-pesquisa{
+    background-color: deepskyblue;
+    color: rgb(11, 22, 22);
+}
+
+.previsao{
+    text-transform: capitalize;
+}
+
+button{
+    cursor: pointer;
+}
